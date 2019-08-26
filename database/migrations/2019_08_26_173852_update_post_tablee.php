@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class UpdatePostTable extends Migration
+class UpdatePostTablee extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class UpdatePostTable extends Migration
      */
     public function up()
     {
-        Schema::table('posts', function (Blueprint $table){
-           $table->string('alias');
-        });
+        Schema::table('posts', function (Blueprint $table) {
+            $table->string('alias');
+         });
     }
 
     /**
@@ -25,8 +25,6 @@ class UpdatePostTable extends Migration
      */
     public function down()
     {
-        Schema::table('posts', function (Blueprint $table){
-            $table->dropColumn('alias');
-        });
+        $table->dropColumn('alias');
     }
 }
