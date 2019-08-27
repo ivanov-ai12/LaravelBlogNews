@@ -1,7 +1,7 @@
 
 # Описание функционала
 Использовал фреймворк Laravel (патерн MVC). </br>
-controller \app\Post.php </br>
+controller \app\Http\Controllers\PostController.php </br>
 router \routes\web.php </br>
 model \app\Post.php </br>
 create database \database\migrations\2019_08_22_000000_create_users_table.php </br>
