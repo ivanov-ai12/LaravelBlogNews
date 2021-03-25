@@ -1,6 +1,6 @@
 
 # Описание функционала
-Фреймворк Laravel. </br>
+Используемый фреймворк - Laravel. </br>
 controller \app\Http\Controllers\PostController.php </br>
 router \routes\web.php </br>
 model \app\Post.php </br>
