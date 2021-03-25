@@ -1,5 +1,5 @@
 
-# Описание функционала - Блог новостей
+# Описание функционала
 Фреймворк Laravel. </br>
 controller \app\Http\Controllers\PostController.php </br>
 router \routes\web.php </br>
