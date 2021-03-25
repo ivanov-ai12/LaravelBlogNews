@@ -1,6 +1,6 @@
 
-# Описание функционала
-Использовал фреймворк Laravel (патерн MVC). </br>
+# Описание функционала - Блог новостей
+Фреймворк Laravel. </br>
 controller \app\Http\Controllers\PostController.php </br>
 router \routes\web.php </br>
 model \app\Post.php </br>
